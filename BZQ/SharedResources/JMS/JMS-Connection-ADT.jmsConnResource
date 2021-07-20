@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jms="http://xsd.tns.tibco.com/bw/models/sharedresource/jms" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_H4Z1oOk7EeuJIMX85YoaTQ" name="BZQ.SharedResources.JMS.JMS-Connection-ADT" type="jms:JMSConnectionFactory">
+  <jndi:reference xmi:id="_H4Z1oek7EeuJIMX85YoaTQ" key="jndiConnectionJNDIName" type="jms:JNDIConnection" value="BZQ.SharedResources.JMS.JMS-Connection-ADTJNDI"/>
+  <jndi:configuration xsi:type="jms:JNDIConnectionFactory" xmi:id="_H4Z1ouk7EeuJIMX85YoaTQ" factoryType="Queue/Topic" jndiName="%%BZQEMSJNDIContext/ADT/Factory%%" topicFactoryJNDIName="TopicConnectionFactory">
+    <substitutionBindings xmi:id="_H4euIOk7EeuJIMX85YoaTQ" template="jndiName" propName="/BZQEMSJNDIContext/ADT/Factory"/>
+    <userCredentials xmi:id="_H4Z1o-k7EeuJIMX85YoaTQ" username="%%BZQEMSJNDIContext/ADT/User%%" password="%%BZQEMSJNDIContext/ADT/Password%%">
+      <substitutionBindings xmi:id="_H4fVMOk7EeuJIMX85YoaTQ" template="username" propName="/BZQEMSJNDIContext/ADT/User"/>
+      <substitutionBindings xmi:id="_H4fVMek7EeuJIMX85YoaTQ" template="password" propName="/BZQEMSJNDIContext/ADT/Password"/>
+    </userCredentials>
+  </jndi:configuration>
+</jndi:namedResource>

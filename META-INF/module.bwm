@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:jms="http://xsd.tns.tibco.com/bw/models/sharedresource/jms" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:smtp="http://xsd.tns.tibco.com/bw/models/sharedresource/smtp" xmi:id="_GGU0AOk7EeuJIMX85YoaTQ" targetNamespace="http://tns.tibco.com/bw/composite/projlibProjAfterDeploy" name="projlibProjAfterDeploy" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_GGWCIOk7EeuJIMX85YoaTQ" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_GGWCIek7EeuJIMX85YoaTQ" name="BW.APPNODE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_GGWCIuk7EeuJIMX85YoaTQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_GGWCI-k7EeuJIMX85YoaTQ" name="BW.HOST.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_GGWCJOk7EeuJIMX85YoaTQ" name="BW.DOMAIN.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_GGWCJek7EeuJIMX85YoaTQ" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_GGWCJuk7EeuJIMX85YoaTQ" name="BW.APPSPACE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_GGWCJ-k7EeuJIMX85YoaTQ" name="BW.MODULE.VERSION" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_GGWCKOk7EeuJIMX85YoaTQ" name="BW.MODULE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_H1rRwOk7EeuJIMX85YoaTQ" name="/BZQEMSJNDIContext/ADT/Url" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_H1rRwek7EeuJIMX85YoaTQ" name="/BZQEMSJNDIContext/ADT/Factory" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_H1rRwuk7EeuJIMX85YoaTQ" name="/BZQEMSJNDIContext/ADT/User" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_H1r40Ok7EeuJIMX85YoaTQ" name="/BZQEMSJNDIContext/ADT/Password" type="property:password" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_JjCygOk7EeuJIMX85YoaTQ" name="/BZQMessageType/System" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_JsXtoOk7EeuJIMX85YoaTQ" name="BZQSharedResourcesJMSJMS-Connection-ADT" type="jms:JMSConnectionFactory" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_J4dB0Ok7EeuJIMX85YoaTQ" name="BzqMailHost" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_J4yZAOk7EeuJIMX85YoaTQ" name="BzqSendMail-Send-Mail-SMTPResource" type="smtp:SmtpConfiguration" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_KUgEoOk7EeuJIMX85YoaTQ" name="/MFPatterns/DateTime" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+</sca:composite>

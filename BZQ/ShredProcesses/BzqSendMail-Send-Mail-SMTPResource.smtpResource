@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:smtp="http://xsd.tns.tibco.com/bw/models/sharedresource/smtp" xmi:id="_J5MBoOk7EeuJIMX85YoaTQ" name="BZQ.ShredProcesses.BzqSendMail-Send-Mail-SMTPResource" type="smtp:SmtpConfiguration">
+  <jndi:configuration xsi:type="smtp:SmtpConfiguration" xmi:id="_J5NPwOk7EeuJIMX85YoaTQ">
+    <tcpDetails xmi:id="_J5NPwek7EeuJIMX85YoaTQ" port="25">
+      <substitutionBindings xmi:id="_J5RhMOk7EeuJIMX85YoaTQ" template="host" propName=""/>
+    </tcpDetails>
+    <userCredentials xmi:id="_J5NPwuk7EeuJIMX85YoaTQ"/>
+  </jndi:configuration>
+</jndi:namedResource>
